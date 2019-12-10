@@ -51,13 +51,13 @@ public class MainActivity extends AppCompatActivity {
                                 throw new ArithmeticException("Division by 0");
                             }
 
-                            if(result == 13 || secondNumber == 13 || firstNumber == 13){
-                                Log.i("UnluckyException", "you're unlucky");
-                                throw new UnluckyException("Unlucky exception");
-                            }
-
                             result = firstNumber/secondNumber;
                             Log.v("DivisionResult", "" + result );
+
+                            if(result == 13 || secondNumber == 13 || firstNumber == 13){
+                                Log.i("UnluckyException", "you're unlucky, boo-hoo");
+                                throw new UnluckyException("Unlucky exception");
+                            }
 
                             Toast toast = Toast.makeText(getApplicationContext(),"Result: " + result ,Toast.LENGTH_SHORT);
                             toast.setMargin(50,50);
