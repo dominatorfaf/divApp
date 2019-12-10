@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">lab8</string>
+    <string name="cube_text1">I\'m the magical cube of division</string>
+    <string name="cube_text2">Just press me</string>
+    <string name="edit_text1">First number box</string>
+    <string name="edit_text2">First number box</string>
+    <string name="button">I\'m the division button</string>
+    <string name="background">I\'m the background</string>
+    <string name="hint_text">Input any number</string>
 </resources>
