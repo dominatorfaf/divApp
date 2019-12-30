@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
                             Toast toast = Toast.makeText(getApplicationContext(),"Result: " + result ,Toast.LENGTH_SHORT);
                             toast.setMargin(50,50);
                             toast.show();
-
                         }
                         catch (Exception e){
                             if(secondNumber == 0) {
